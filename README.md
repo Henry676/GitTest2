@@ -16,3 +16,15 @@ git push origin <rama destino>
 
 y ya dependiendo de lo que se haga, hacer un merge de la rama destino a la rama main para poder tener
 todo dentro del main otra vez
+
+Comandos empleados:
+
+--git init para crear un repositorio nuevo
+--git clone para descargar un repositorio
+--git add para preparar los cambios que se haran, se guardara de manera local una vez se haga el commit
+--git push para enviar nuestros commits (cambios confirmados) del repo local a la nube
+--git branch <name> para crear una rama nueva
+--git checkout <branchName> para cambiar de rama
+--git merge <branch> toma los cambios de "branch" y los integra a la rama actual (en el que estamos)
+--git commit -m "Manda un mensaje para dar a saber que se hizo"
+--git commit -am "Guarda cambios de manera local y se envia un mensaje siempre y cuando git conozca nuestros archivos, es decir, que se hayan guardado o añadido anteriormente"
