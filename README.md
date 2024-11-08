@@ -28,4 +28,6 @@ Comandos empleados:
 --git merge <branch> toma los cambios de "branch" y los integra a la rama actual (en el que estamos)
 --git commit -m "Manda un mensaje para dar a saber que se hizo"
 --git commit -am "Guarda cambios de manera local y se envia un mensaje siempre y cuando git conozca nuestros archivos, es decir, que se hayan guardado o añadido anteriormente"
+--git fetch "Descarga los cambios que se hicieron de manera remota"
+--git pull origin <branch> "Tras descargar los ultimos cambios que se hicieron de manera remota con el comando anterior, ahora hay que jalar los ultimos cambios a mi rama en la que quiera con este comando"
 --git reset --hard es para retroceder hacia el ultimo commit, sirve cuando estas haciendo cambios pero salio algun error inesperado y quieres regresar al codigo como lo tenias antes,es donde entra este comando
