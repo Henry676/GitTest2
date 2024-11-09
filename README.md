@@ -34,3 +34,4 @@ Comandos empleados:
 --git checkout HEAD -- <file> Sirve para regresar al ultimo commit o a lo que se tenia antes pero de un solo archivo en especifico, sin afectar los demas.
 --git log "Sirve para ver el historial"
 --git log --oneline "es la misma informacion reducida"
+--git log --oneline --graph "Es para ver de una mejor forma el historial"
