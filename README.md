@@ -19,19 +19,20 @@ todo dentro del main otra vez
 
 Comandos empleados:
 
---git init para crear un repositorio nuevo
---git clone para descargar un repositorio
---git add para preparar los cambios que se haran, se guardara de manera local una vez se haga el commit
---git push para enviar nuestros commits (cambios confirmados) del repo local a la nube
---git branch <name> para crear una rama nueva
---git checkout <branchName> para cambiar de rama
---git merge <branch> toma los cambios de "branch" y los integra a la rama actual (en el que estamos)
---git commit -m "Manda un mensaje para dar a saber que se hizo"
---git commit -am "Guarda cambios de manera local y se envia un mensaje siempre y cuando git conozca nuestros archivos, es decir, que se hayan guardado o añadido anteriormente"
---git fetch "Descarga los cambios que se hicieron de manera remota"
---git pull origin <branch> "Tras descargar los ultimos cambios que se hicieron de manera remota con el comando anterior, ahora hay que jalar los ultimos cambios a mi rama en la que quiera con este comando"
---git reset --hard es para retroceder hacia el ultimo commit, sirve cuando estas haciendo cambios pero salio algun error inesperado y quieres regresar al codigo como lo tenias antes,es donde entra este comando
---git checkout HEAD -- <file> Sirve para regresar al ultimo commit o a lo que se tenia antes pero de un solo archivo en especifico, sin afectar los demas.
---git log "Sirve para ver el historial"
---git log --oneline "es la misma informacion reducida"
---git log --oneline --graph "Es para ver de una mejor forma el historial"
+--> git init para crear un repositorio nuevo
+--> git clone para descargar un repositorio
+--> git add para preparar los cambios que se haran, se guardara de manera local una vez se haga el commit
+--> git push para enviar nuestros commits (cambios confirmados) del repo local a la nube
+--> git branch <name> para crear una rama nueva
+--> git checkout <branchName> para cambiar de rama
+--> git merge <branch> toma los cambios de "branch" y los integra a la rama actual (en el que estamos)
+--> git commit -m "Manda un mensaje para dar a saber que se hizo"
+--> git commit -am "Guarda cambios de manera local y se envia un mensaje siempre y cuando git conozca nuestros archivos, es decir, que se hayan guardado o añadido anteriormente"
+--> git fetch "Descarga los cambios que se hicieron de manera remota"
+--> git pull origin <branch> "Tras descargar los ultimos cambios que se hicieron de manera remota con el comando anterior, ahora hay que jalar los ultimos cambios a mi rama en la que quiera con este comando"
+--> git reset --hard es para retroceder hacia el ultimo commit, sirve cuando estas haciendo cambios pero salio algun error inesperado y quieres regresar al codigo como lo tenias antes,es donde entra este comando
+--> git checkout HEAD -- <file> Sirve para regresar al ultimo commit o a lo que se tenia antes pero de un solo archivo en especifico, sin afectar los demas.
+--> git log "Sirve para ver el historial"
+--> git log --oneline "es la misma informacion reducida"
+--> git log --oneline --graph "Es para ver de una mejor forma el historial"
+--> git checkout <Hexadecimal del commit> esto sirve para poder regresarse un commit atras
