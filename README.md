@@ -32,3 +32,5 @@ Comandos empleados:
 --git pull origin <branch> "Tras descargar los ultimos cambios que se hicieron de manera remota con el comando anterior, ahora hay que jalar los ultimos cambios a mi rama en la que quiera con este comando"
 --git reset --hard es para retroceder hacia el ultimo commit, sirve cuando estas haciendo cambios pero salio algun error inesperado y quieres regresar al codigo como lo tenias antes,es donde entra este comando
 --git checkout HEAD -- <file> Sirve para regresar al ultimo commit o a lo que se tenia antes pero de un solo archivo en especifico, sin afectar los demas.
+--git log "Sirve para ver el historial"
+--git log --oneline "es la misma informacion reducida"
