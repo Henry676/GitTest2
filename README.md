@@ -46,4 +46,4 @@ Comandos empleados:
 
 ---Github issues----
 Es buena practica poner #<se selecciona el issue> + .close #<otra vez el issue>
-para que una vez se haya analizado y verificar que todo va bien, hacer un merge pull request y que de una vez se cierre el issue
+para que una vez se haya analizado y verificar que todo va bien, hacer un merge pull request y que de una vez se cierre el issue.
