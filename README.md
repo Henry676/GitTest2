@@ -36,3 +36,4 @@ Comandos empleados:
 --> git log --oneline "es la misma informacion reducida"
 --> git log --oneline --graph "Es para ver de una mejor forma el historial"
 --> git checkout <Hexadecimal del commit> esto sirve para poder regresarse un commit atras
+--> git checkout HEAD-1 "es para retroceder un commit"
