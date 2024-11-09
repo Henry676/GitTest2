@@ -37,3 +37,8 @@ Comandos empleados:
 --> git log --oneline --graph "Es para ver de una mejor forma el historial"
 --> git checkout <Hexadecimal del commit> esto sirve para poder regresarse un commit atras
 --> git checkout HEAD-1 "es para retroceder un commit"
+
+-----Release----
+--> Para hacer un release (es decir, liberar el codigo que ya esta listo para su uso, mandarlo a produccion), hay dos opciones:
+1.- crear una rama UNICAMENTE para tener el codigo liberado, no mas, no menos
+2.- Realizar un release interno dentro de github (es la practica mas comun) en la parte que dice release
