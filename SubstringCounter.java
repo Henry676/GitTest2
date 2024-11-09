@@ -40,3 +40,4 @@ public class SubstringCounter{
 // Codigo revisado exitosamente
 
 // Arregle issue 1
+// Se ha arreglado el bug de la ventana que no cierra
